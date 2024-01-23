@@ -1,12 +1,14 @@
 #include <stdio.h>
 int main()
-{ 
+{
     int x;
-    x=100;
-    while ( x > 0 )
+
+    x=0;
+    while (x<1000)
     {
         printf("%d\n", x);
-        x = x - 2;
+        x = x + 100;
     }
     return(0);
 }
+  
